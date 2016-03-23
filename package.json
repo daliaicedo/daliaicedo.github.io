@@ -1,0 +1,36 @@
+{
+  "name": "daliaicedo.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio site",
+  "main": "dev/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daliaicedo/daliaicedo.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daliaicedo/daliaicedo.github.io/issues"
+  },
+  "homepage": "https://github.com/daliaicedo/daliaicedo.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "serve-favicon": "^2.3.0"
+  }
+}
