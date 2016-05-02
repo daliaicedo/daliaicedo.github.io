@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+$amatic: 'Amatic SC', cursive;
+$inconsolata: 'Inconsolata', ;
 
 $myred: #ED254E;
 $myyellow: #FFFF99;
@@ -6,9 +10,24 @@ $mygreen: #D4FA8E;
 $myblack: #2F2F2F;
 $myblue: #F4FFFD;
 
-nav ul a,
+body {
+  font-family: $amatic;
+  font-size: 200%;
+}
+
+.amatic-font {
+  font-family: $amatic;
+}
+
+.inconsolata-font {
+  font-family: $inconsolata;
+}
+
+.side-nav a, nav ul a,
 nav, #nav-mobile {
   background-color: $myred;
+  font-size: 100%;
+  color: white;
 }
 
 #about-background {
@@ -24,7 +43,7 @@ nav, #nav-mobile {
 }
 
 #about-background, #portfolio-background, #contact-background{
-  height: calc(100vh - 65px); // Screen size - navbar
+  height: 100vh; // Screen size - navbar
   margin: 0;
 }
 

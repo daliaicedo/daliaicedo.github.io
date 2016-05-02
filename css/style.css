@@ -1,7 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-nav ul a,
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+body {
+  font-family: "Amatic SC", cursive;
+  font-size: 200%; }
+
+.amatic-font {
+  font-family: "Amatic SC", cursive; }
+
+.inconsolata-font {
+  font-family: "Inconsolata"; }
+
+.side-nav a, nav ul a,
 nav, #nav-mobile {
-  background-color: #ED254E; }
+  background-color: #ED254E;
+  font-size: 100%;
+  color: white; }
 
 #about-background {
   background-color: #F4FFFD; }
@@ -13,7 +26,7 @@ nav, #nav-mobile {
   background-color: #FFFF99; }
 
 #about-background, #portfolio-background, #contact-background {
-  height: calc(100vh - 65px);
+  height: 100vh;
   margin: 0; }
 
 #about-me-card {
