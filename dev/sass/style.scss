@@ -1,47 +1,95 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+$myred: #ED254E;
+$myyellow: #FFFF99;
+$mygreen: #D4FA8E;
+$myblack: #2F2F2F;
+$myblue: #F4FFFD;
+
 nav ul a,
-nav .brand-logo {
-  color: #444;
+nav, #nav-mobile {
+  background-color: $myred;
 }
 
-p {
-  line-height: 2rem;
+#about-background {
+  background-color: $myblue;
 }
+
+#portfolio-background {
+  background-color: $mygreen;
+}
+
+#contact-background {
+  background-color: $myyellow;
+}
+
+#about-background, #portfolio-background, #contact-background{
+  height: calc(100vh - 65px); // Screen size - navbar
+  margin: 0;
+}
+
+#about-me-card {
+  background-color: $myblack;
+  color: $myred;
+  p {
+    color: $mygreen;
+  }
+}
+
+#portfolio-card {
+  background-color: $myblue;
+  color: $myblack;
+  // p {
+  //   color: $myblack;
+  // }
+}
+
+#resume-link {
+  color: $myred;
+}
+
+#logo-container {
+  img {
+    padding-top: 5px;
+    height: 56px;
+  }
+}
+
+
+
+// p {
+//   line-height: 2rem;
+// }
 
 .button-collapse {
-  color: #26a69a;
+  color: $mygreen;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: 650px;
+  // line-height: 0;
+  height: 100vh;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
+// @media only screen and (max-width : 992px) {
+//   .parallax-container .section {
+//     position: absolute;
+//     top: 40%;
+//   }
+//   #index-banner .section {
+//     top: 10%;
+//   }
+// }
+//
+// @media only screen and (max-width : 600px) {
+//   #index-banner .section {
+//     top: 0;
+//   }
+// }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
 .icon-block .material-icons {
   font-size: inherit;
 }

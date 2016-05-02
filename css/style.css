@@ -1,36 +1,47 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 nav ul a,
-nav .brand-logo {
-  color: #444; }
+nav, #nav-mobile {
+  background-color: #ED254E; }
 
-p {
-  line-height: 2rem; }
+#about-background {
+  background-color: #F4FFFD; }
+
+#portfolio-background {
+  background-color: #D4FA8E; }
+
+#contact-background {
+  background-color: #FFFF99; }
+
+#about-background, #portfolio-background, #contact-background {
+  height: calc(100vh - 65px);
+  margin: 0; }
+
+#about-me-card {
+  background-color: #2F2F2F;
+  color: #ED254E; }
+  #about-me-card p {
+    color: #D4FA8E; }
+
+#portfolio-card {
+  background-color: #F4FFFD;
+  color: #2F2F2F; }
+
+#resume-link {
+  color: #ED254E; }
+
+#logo-container img {
+  padding-top: 5px;
+  height: 56px; }
 
 .button-collapse {
-  color: #26a69a; }
+  color: #D4FA8E; }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: 650px;
+  height: 100vh;
   color: rgba(255, 255, 255, 0.9); }
 
 .parallax-container .section {
   width: 100%; }
-
-@media only screen and (max-width: 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%; }
-  #index-banner .section {
-    top: 10%; } }
-
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0; } }
-
-.icon-block {
-  padding: 0 15px; }
 
 .icon-block .material-icons {
   font-size: inherit; }

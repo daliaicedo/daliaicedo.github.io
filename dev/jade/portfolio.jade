@@ -1,0 +1,31 @@
+extends wrapper
+
+block title
+  | Portfolio
+
+block body
+  #portfolio-background
+    .container
+      .section
+        .row
+          h1.center Portfolio
+        .row
+          .col.s12.m12.l4
+            img.hoverable.z-depth-1(src='img/bandshite.jpg')
+          .col.s12.m12.l4
+            img.hoverable.z-depth-1(src='img/rosie.jpg')
+          .col.s12.m12.l4
+            img.hoverable.z-depth-1(src='img/beverly.jpg')
+        
+        .row  
+          .col.s12.m12.l6
+            #portfolio-card.card-panel.hoverable
+              h1 Education
+              p somewhere
+              h2 Colleges:
+              p somethin somethin
+              h3 Awards:
+          .col.s12.m12.l6.center
+            h4(style='margin-top: 100px;')
+              a#resume-link(href='#') My resume
+          
