@@ -10,6 +10,14 @@ body {
 .inconsolata-font {
   font-family: "Inconsolata"; }
 
+h1 {
+  font-family: "Inconsolata";
+  font-size: 370%;
+  font-weight: bolder;
+  color: #FFFD51;
+  font-stroke: 1px;
+  stroke-color: black; }
+
 .side-nav a, nav ul a,
 nav, #nav-mobile {
   background-color: #ED254E;

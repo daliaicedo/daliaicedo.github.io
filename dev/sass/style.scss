@@ -22,7 +22,15 @@ body {
 .inconsolata-font {
   font-family: $inconsolata;
 }
+h1{
+  font-family: $inconsolata;
+  font-size: 370%;
+  font-weight: bolder;
+  color: #FFFD51;
+  font-stroke: 1px;
+  stroke-color: black;
 
+}
 .side-nav a, nav ul a,
 nav, #nav-mobile {
   background-color: $myred;
