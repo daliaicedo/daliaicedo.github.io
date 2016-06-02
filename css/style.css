@@ -15,8 +15,10 @@ h1 {
   font-size: 370%;
   font-weight: bolder;
   color: #FFFD51;
-  font-stroke: 1px;
-  stroke-color: black; }
+  stroke: solid;
+  stroke-width: 1px;
+  stroke-color: black;
+  text-shadow: white; }
 
 .side-nav a, nav ul a,
 nav, #nav-mobile {
@@ -41,7 +43,8 @@ nav, #nav-mobile {
   background-color: #2F2F2F;
   color: #ED254E; }
   #about-me-card p {
-    color: #D4FA8E; }
+    color: #ffffff;
+    font-size: 75%; }
 
 #portfolio-card {
   background-color: #F4FFFD;

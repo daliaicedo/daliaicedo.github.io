@@ -27,8 +27,10 @@ h1{
   font-size: 370%;
   font-weight: bolder;
   color: #FFFD51;
-  font-stroke: 1px;
+  stroke: solid;
+  stroke-width: 1px;
   stroke-color: black;
+  text-shadow: white;
 
 }
 .side-nav a, nav ul a,
@@ -59,7 +61,8 @@ nav, #nav-mobile {
   background-color: $myblack;
   color: $myred;
   p {
-    color: $mygreen;
+    color: #ffffff;
+    font-size: 75%
   }
 }
 
